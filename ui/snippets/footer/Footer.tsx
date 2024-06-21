@@ -129,7 +129,7 @@ const Footer = () => {
     (gridArea?: GridProps["gridArea"]) => {
       return (
         <Box gridArea={gridArea}>
-          <Link fontSize="xs" href="https://ethda.io/">
+          <Link fontSize="xs" target='_blank' href="https://ethda.io/">
             ethda.io
           </Link>
           <Text mt={3} fontSize="xs">
